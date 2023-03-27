@@ -1,15 +1,5 @@
 # openaigo
 
-[![Go](https://github.com/otiai10/openaigo/actions/workflows/go.yml/badge.svg)](https://github.com/otiai10/openaigo/actions/workflows/go.yml)
-[![CodeQL](https://github.com/otiai10/openaigo/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/otiai10/openaigo/actions/workflows/codeql-analysis.yml)
-[![App Test over API](https://github.com/otiai10/openaigo/actions/workflows/api.yml/badge.svg)](https://github.com/otiai10/openaigo/actions/workflows/api.yml)
-[![License](https://img.shields.io/github/license/otiai10/openaigo)](https://github.com/otiai10/openaigo/blob/main/LICENSE)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fotiai10%2Fopenaigo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fotiai10%2Fopenaigo?ref=badge_shield)
-<br>[![Maintainability](https://api.codeclimate.com/v1/badges/20c434b47940ce8ed511/maintainability)](https://codeclimate.com/github/otiai10/openaigo/maintainability)
-[![Go Report Card](https://goreportcard.com/badge/github.com/otiai10/openaigo)](https://goreportcard.com/report/github.com/otiai10/openaigo)
-[![codecov](https://codecov.io/github/otiai10/openaigo/branch/main/graph/badge.svg?token=mfAYgn6Uto)](https://codecov.io/github/otiai10/openaigo)
-<br>[![Reference](https://img.shields.io/github/v/tag/otiai10/openaigo?sort=semver)](https://pkg.go.dev/github.com/otiai10/openaigo)
-[![GoDoc](https://pkg.go.dev/badge/github.com/otiai10/openaigo)](https://pkg.go.dev/github.com/otiai10/openaigo)
 
 Yet another API client for `api.openai.com`.
 
@@ -25,7 +15,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/otiai10/openaigo"
+	"github.com/xiao333ma/openaigo"
 )
 
 func main() {
@@ -52,7 +42,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/otiai10/openaigo"
+	"github.com/xiao333ma/openaigo"
 )
 
 func main() {
@@ -92,7 +82,7 @@ func main() {
 if you just want to try, hit commands below.
 
 ```shell
-git clone https://github.com/otiai10/openaigo.git
+git clone https://github.com/xiao333ma/openaigo.git
 cd openaigo
 OPENAI_API_KEY=YourAPIKey go run ./testapp/main.go
 ```
@@ -152,4 +142,4 @@ client.HTTPClient = &http.Client{ Transport: transport }
 
 Report any issue here or any feedback is welcomed.
 
-* https://github.com/otiai10/openaigo/issues
+* https://github.com/xiao333ma/openaigo/issues
