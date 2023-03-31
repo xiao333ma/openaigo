@@ -197,7 +197,6 @@ func callForStream(ctx context.Context, client *Client, method string, p string,
 
 			s = strings.TrimPrefix(s, "data: ")
 			s = strings.TrimSpace(s)
-			fmt.Println(s)
 
 			if len(s) > 0 {
 				v := ChatCompletionStreamResponse{}
